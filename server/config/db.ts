@@ -1,7 +1,7 @@
 import * as mongoose from "mongoose";
 
 class Database {
-    private DB_URI = 'mongodb://127.0.0.1:27017/tsapi';
+    private DB_URI = 'mongodb://127.0.0.1:27017/db_portal';
     private DB_CONNECTION;
 
     constructor() { }
